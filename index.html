@@ -194,6 +194,13 @@
             font-weight: 500;
         }
 
+        h2 {
+            font-size: 1rem;
+            margin-bottom: 24px;
+            font-weight: 300;
+            color: #b34805;
+        }
+
         input[type="number"] {
             width: 140px;
             padding: 12px;
@@ -259,7 +266,8 @@
         <input type="number" id="scoreInput" min="0" max="10" step="0.5" placeholder="fill here /10">
         <button onclick="submitScore()">tell mee, press</button>
         <div id="message"></div>
-        <h2>updated ver1.25.63 (bg music is available! pls listen :3</h2>
+        <h2>updated ver1.25.63</h2>
+        <h2>desc: bg music is available aft submitting the score krush //pls listen eiei<h2>
     </div>
 
     <script src="https://www.youtube.com/iframe_api"></script>
@@ -327,7 +335,7 @@
 
                 let successMessage = "";
                 if (score === 10) {
-                    successMessage = "told you, you're 10/10 (in my eye hah ha";
+                    successMessage = "told you, you're 10/10 (in my eyes hah ha";
                 } else if (score >= 7) {
                     successMessage = "very nice, good jobu!";
                 } else if (score > 5) {
